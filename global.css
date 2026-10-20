@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  direction: rtl;
+}
+
+#chess-board-grid {
+  direction: ltr;
+}

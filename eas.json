@@ -1,0 +1,18 @@
+{
+  "cli": {
+    "version": ">= 5.9.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EAS_NO_FROZEN_LOCKFILE": "1",
+        "EAS_BUILD_DISABLE_NPM_CACHE": "1"
+      }
+    }
+  }
+}
